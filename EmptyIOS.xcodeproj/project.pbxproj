@@ -13,11 +13,14 @@
 		8BB540F118E3E746004C37E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB540F018E3E746004C37E5 /* CoreData.framework */; };
 		8BB540F718E3E746004C37E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BB540F518E3E746004C37E5 /* InfoPlist.strings */; };
 		8BB540F918E3E746004C37E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB540F818E3E746004C37E5 /* main.m */; };
-		8BB540FD18E3E746004C37E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB540FC18E3E746004C37E5 /* AppDelegate.m */; };
-		8BB540FF18E3E746004C37E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB540FE18E3E746004C37E5 /* Default.png */; };
-		8BB5410118E3E746004C37E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB5410018E3E746004C37E5 /* Default@2x.png */; };
-		8BB5410318E3E746004C37E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB5410218E3E746004C37E5 /* Default-568h@2x.png */; };
 		8BB5410618E3E746004C37E5 /* EmptyIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5410418E3E746004C37E5 /* EmptyIOS.xcdatamodeld */; };
+		8BB5411018E3F7EB004C37E5 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5410F18E3F7EB004C37E5 /* BaseModel.m */; };
+		8BB5412218E3FAC5004C37E5 /* DBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5412118E3FAC5004C37E5 /* DBHelper.m */; };
+		8BB5412518E3FADA004C37E5 /* ShareHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5412418E3FADA004C37E5 /* ShareHelper.m */; };
+		8BB5413618E3FE64004C37E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB5413518E3FE64004C37E5 /* AppDelegate.m */; };
+		8BB5413A18E3FEAE004C37E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB5413718E3FEAE004C37E5 /* Default-568h@2x.png */; };
+		8BB5413B18E3FEAE004C37E5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB5413818E3FEAE004C37E5 /* Default.png */; };
+		8BB5413C18E3FEAE004C37E5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB5413918E3FEAE004C37E5 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +33,31 @@
 		8BB540F618E3E746004C37E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BB540F818E3E746004C37E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8BB540FA18E3E746004C37E5 /* EmptyIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmptyIOS-Prefix.pch"; sourceTree = "<group>"; };
-		8BB540FB18E3E746004C37E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8BB540FC18E3E746004C37E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8BB540FE18E3E746004C37E5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8BB5410018E3E746004C37E5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8BB5410218E3E746004C37E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8BB5410518E3E746004C37E5 /* EmptyIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EmptyIOS.xcdatamodel; sourceTree = "<group>"; };
+		8BB5410E18E3F7EB004C37E5 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseModel.h; path = Models/BaseModel.h; sourceTree = "<group>"; };
+		8BB5410F18E3F7EB004C37E5 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseModel.m; path = Models/BaseModel.m; sourceTree = "<group>"; };
+		8BB5411218E3F83C004C37E5 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppMacro.h; path = Macro/AppMacro.h; sourceTree = "<group>"; };
+		8BB5411318E3F878004C37E5 /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotificationMacro.h; path = Macro/NotificationMacro.h; sourceTree = "<group>"; };
+		8BB5411418E3F8AF004C37E5 /* VendorMacro..h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VendorMacro..h; path = Macro/VendorMacro..h; sourceTree = "<group>"; };
+		8BB5411518E3F8DF004C37E5 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UtilsMacro.h; path = Macro/UtilsMacro.h; sourceTree = "<group>"; };
+		8BB5411718E3F968004C37E5 /* AboutModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutModels.h; path = Macro/AboutModels.h; sourceTree = "<group>"; };
+		8BB5411818E3F999004C37E5 /* AboutMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutMacro.h; path = Macro/AboutMacro.h; sourceTree = "<group>"; };
+		8BB5411C18E3FA20004C37E5 /* AboutGeneral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutGeneral.h; path = General/AboutGeneral.h; sourceTree = "<group>"; };
+		8BB5411F18E3FA7C004C37E5 /* AboutHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutHelpers.h; path = Helpers/AboutHelpers.h; sourceTree = "<group>"; };
+		8BB5412018E3FAC5004C37E5 /* DBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBHelper.h; path = Helpers/DBHelper.h; sourceTree = "<group>"; };
+		8BB5412118E3FAC5004C37E5 /* DBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBHelper.m; path = Helpers/DBHelper.m; sourceTree = "<group>"; };
+		8BB5412318E3FADA004C37E5 /* ShareHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareHelper.h; path = Helpers/ShareHelper.h; sourceTree = "<group>"; };
+		8BB5412418E3FADA004C37E5 /* ShareHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareHelper.m; path = Helpers/ShareHelper.m; sourceTree = "<group>"; };
+		8BB5412718E3FB1A004C37E5 /* AboutVendors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutVendors.h; path = Vendors/AboutVendors.h; sourceTree = "<group>"; };
+		8BB5412B18E3FB6B004C37E5 /* AboutSections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutSections.h; path = Sections/AboutSections.h; sourceTree = "<group>"; };
+		8BB5412D18E3FBCC004C37E5 /* AboutResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutResources.h; path = Resources/AboutResources.h; sourceTree = "<group>"; };
+		8BB5412F18E3FC29004C37E5 /* AboutCocoapods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutCocoapods.h; path = Cocoapods/AboutCocoapods.h; sourceTree = "<group>"; };
+		8BB5413318E3FE64004C37E5 /* AboutAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutAppDelegate.h; path = AppDelegate/AboutAppDelegate.h; sourceTree = "<group>"; };
+		8BB5413418E3FE64004C37E5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AppDelegate/AppDelegate.h; sourceTree = "<group>"; };
+		8BB5413518E3FE64004C37E5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AppDelegate/AppDelegate.m; sourceTree = "<group>"; };
+		8BB5413718E3FEAE004C37E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Resources/Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BB5413818E3FEAE004C37E5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
+		8BB5413918E3FEAE004C37E5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +106,15 @@
 		8BB540F218E3E746004C37E5 /* EmptyIOS */ = {
 			isa = PBXGroup;
 			children = (
-				8BB540FB18E3E746004C37E5 /* AppDelegate.h */,
-				8BB540FC18E3E746004C37E5 /* AppDelegate.m */,
+				8BB5412E18E3FC15004C37E5 /* Cocoapods */,
+				8BB5412C18E3FBB2004C37E5 /* Resources */,
+				8BB5412818E3FB3C004C37E5 /* Sections */,
+				8BB5412618E3FAEC004C37E5 /* Vendors */,
+				8BB5411E18E3FA59004C37E5 /* Helpers */,
+				8BB5411918E3F9D4004C37E5 /* General */,
+				8BB5411118E3F81C004C37E5 /* Macro */,
+				8BB5410D18E3F7AF004C37E5 /* Models */,
+				8BB5410C18E3F720004C37E5 /* AppDelegate */,
 				8BB5410418E3E746004C37E5 /* EmptyIOS.xcdatamodeld */,
 				8BB540F318E3E746004C37E5 /* Supporting Files */,
 			);
@@ -99,11 +128,135 @@
 				8BB540F518E3E746004C37E5 /* InfoPlist.strings */,
 				8BB540F818E3E746004C37E5 /* main.m */,
 				8BB540FA18E3E746004C37E5 /* EmptyIOS-Prefix.pch */,
-				8BB540FE18E3E746004C37E5 /* Default.png */,
-				8BB5410018E3E746004C37E5 /* Default@2x.png */,
-				8BB5410218E3E746004C37E5 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB5410C18E3F720004C37E5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5413318E3FE64004C37E5 /* AboutAppDelegate.h */,
+				8BB5413418E3FE64004C37E5 /* AppDelegate.h */,
+				8BB5413518E3FE64004C37E5 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8BB5410D18E3F7AF004C37E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5410E18E3F7EB004C37E5 /* BaseModel.h */,
+				8BB5410F18E3F7EB004C37E5 /* BaseModel.m */,
+				8BB5411718E3F968004C37E5 /* AboutModels.h */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8BB5411118E3F81C004C37E5 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5411218E3F83C004C37E5 /* AppMacro.h */,
+				8BB5411318E3F878004C37E5 /* NotificationMacro.h */,
+				8BB5411418E3F8AF004C37E5 /* VendorMacro..h */,
+				8BB5411518E3F8DF004C37E5 /* UtilsMacro.h */,
+				8BB5411818E3F999004C37E5 /* AboutMacro.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		8BB5411918E3F9D4004C37E5 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5411D18E3FA34004C37E5 /* Categories */,
+				8BB5411B18E3F9EE004C37E5 /* Classes */,
+				8BB5411A18E3F9E5004C37E5 /* Views */,
+				8BB5411C18E3FA20004C37E5 /* AboutGeneral.h */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		8BB5411A18E3F9E5004C37E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8BB5411B18E3F9EE004C37E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8BB5411D18E3FA34004C37E5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		8BB5411E18E3FA59004C37E5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5411F18E3FA7C004C37E5 /* AboutHelpers.h */,
+				8BB5412018E3FAC5004C37E5 /* DBHelper.h */,
+				8BB5412118E3FAC5004C37E5 /* DBHelper.m */,
+				8BB5412318E3FADA004C37E5 /* ShareHelper.h */,
+				8BB5412418E3FADA004C37E5 /* ShareHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		8BB5412618E3FAEC004C37E5 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5412718E3FB1A004C37E5 /* AboutVendors.h */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		8BB5412818E3FB3C004C37E5 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5412A18E3FB53004C37E5 /* Setting */,
+				8BB5412918E3FB45004C37E5 /* Main */,
+				8BB5412B18E3FB6B004C37E5 /* AboutSections.h */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		8BB5412918E3FB45004C37E5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8BB5412A18E3FB53004C37E5 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		8BB5412C18E3FBB2004C37E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5413718E3FEAE004C37E5 /* Default-568h@2x.png */,
+				8BB5413818E3FEAE004C37E5 /* Default.png */,
+				8BB5413918E3FEAE004C37E5 /* Default@2x.png */,
+				8BB5412D18E3FBCC004C37E5 /* AboutResources.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8BB5412E18E3FC15004C37E5 /* Cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				8BB5412F18E3FC29004C37E5 /* AboutCocoapods.h */,
+			);
+			name = Cocoapods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +311,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB540F718E3E746004C37E5 /* InfoPlist.strings in Resources */,
-				8BB540FF18E3E746004C37E5 /* Default.png in Resources */,
-				8BB5410118E3E746004C37E5 /* Default@2x.png in Resources */,
-				8BB5410318E3E746004C37E5 /* Default-568h@2x.png in Resources */,
+				8BB5413A18E3FEAE004C37E5 /* Default-568h@2x.png in Resources */,
+				8BB5413B18E3FEAE004C37E5 /* Default.png in Resources */,
+				8BB5413C18E3FEAE004C37E5 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +325,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB540F918E3E746004C37E5 /* main.m in Sources */,
-				8BB540FD18E3E746004C37E5 /* AppDelegate.m in Sources */,
 				8BB5410618E3E746004C37E5 /* EmptyIOS.xcdatamodeld in Sources */,
+				8BB5411018E3F7EB004C37E5 /* BaseModel.m in Sources */,
+				8BB5412218E3FAC5004C37E5 /* DBHelper.m in Sources */,
+				8BB5412518E3FADA004C37E5 /* ShareHelper.m in Sources */,
+				8BB5413618E3FE64004C37E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
