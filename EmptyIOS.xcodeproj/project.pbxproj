@@ -24,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B69880218E533AE00ED2873 /* AboutUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AboutUtils.h; path = Utils/AboutUtils.h; sourceTree = "<group>"; };
 		8BB540E718E3E746004C37E5 /* EmptyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmptyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB540EA18E3E746004C37E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8BB540EC18E3E746004C37E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B69880118E5339300ED2873 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8B69880218E533AE00ED2873 /* AboutUtils.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		8BB540DE18E3E746004C37E5 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +115,7 @@
 		8BB540F218E3E746004C37E5 /* EmptyIOS */ = {
 			isa = PBXGroup;
 			children = (
+				8B69880118E5339300ED2873 /* Utils */,
 				8BB5412E18E3FC15004C37E5 /* Cocoapods */,
 				8BB5412C18E3FBB2004C37E5 /* Resources */,
 				8BB5412818E3FB3C004C37E5 /* Sections */,
@@ -442,6 +452,7 @@
 				8BB5410B18E3E746004C37E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
